@@ -11,13 +11,9 @@
 
 // Your code :
 function abs (number){
-    if (number >0) {
-    return true;
-    } else {
-    return false;
+    return Math.max (number, -number);
     }
-}
-  
+
 //* Begin of tests
 const assert = require('assert')
 
